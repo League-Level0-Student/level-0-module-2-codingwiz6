@@ -27,25 +27,27 @@ int number=ran.nextInt(4);
 	
 	// 4. If the random number is 0
 if (number==0){
-	JOptionPane.showInputDialog("Yes");
+	JOptionPane.showMessageDialog(null,"Yes");
 
 }
 	// -- tell the user "Yes"
 
 	// 5. If the random number is 1
 else if (number==1){
-	JOptionPane.showInputDialog("No");
+	JOptionPane.showMessageDialog(null,"No");
 
 }
 	// -- tell the user "No"
 
 	// 6. If the random number is 2
 if (number==2){
-	JOptionPane.showInputDialog("Maybe you should ask Google");
+	JOptionPane.showMessageDialog(null, "Maybe you should ask Google");
 
 }
 	// -- tell the user "Maybe you should ask Google?"
-
+if (number==3) {
+	JOptionPane.showMessageDialog(null,"Hmm... I don't know.");
+}
 	// 7. If the random number is 3
 
 	// -- write your own answer
