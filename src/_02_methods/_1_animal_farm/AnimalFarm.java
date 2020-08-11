@@ -29,7 +29,9 @@ else if (animal.equalsIgnoreCase("Duck")) {
 else if (animal.equalsIgnoreCase("Dog")) {
 	playWoof();
 }
-else if (animal.equals)
+else if (animal.equalsIgnoreCase("Llame")) {
+	
+}
 	}
 
 	static void playMoo() {
